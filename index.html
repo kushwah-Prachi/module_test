@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="body">
+        <div class="container">
+            <div class="pbox">
+            <p class="P">ROCK</p>
+            <p class="P">PAPER</p>
+            <p class="P">SCISSORS</p>
+            </div>
+            <div class="scoreboard">
+            <div class="computer-score">
+                <p class="p">COMPUTER</p>
+                <p class="p1">SCORE</p>
+                <p class="p2" id="computer-score">0</p>
+            </div>
+            <div class="player-score">
+                <p class="p">YOUR</p>
+                <p class="p1">SCORE</p>
+                <p class="p2" id="player-score">0</p>
+            </div>
+        </div>
+    </div>
+
+    <div  class="choices" class="choices_2" class="choices_3">
+        <div class="triangle">
+            <div class="empty"></div>
+        </div>
+        <div  class="choice_1" id="rock">
+            <img class="logo" src="logo1.png" alt="logo" onclick="">
+        </div>
+        <div class="choice_2" id="paper">
+            <img class="logo_1" src="logo2.png" alt="logo" onclick="">
+        </div>
+        <div class="choice_3" id="scissors">
+            <img class="logo_2" src="logo3.png" alt="logo" onclick="">
+        </div>
+    </div>
+
+    <p class="result" id="result-message"></p>
+
+
+    <div class="rules-popup" id="rules-popup">
+        <div class="circle_r" id="circle_r1">
+            <p  class="close" id="close-rules">X</p>
+        </div>
+        <div class="Rule_box">
+            <div class="G">Game Rules</div>
+           <div class="Rule">
+                <ul>
+                    <li class="rule_1">Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                    <li class="rule_2">Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+                    <li class="rule_3">Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                    <li class="rule_4">If both players lay down the same hand, each player lays down another hand</li>
+                </ul>
+           </div>
+        </div>
+        </div>
+        <div class="rules-button" id="rules-button">
+            <button  class="b">RULES</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
